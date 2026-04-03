@@ -132,7 +132,7 @@ export const SceneConcepts: React.FC = () => {
   return (
     <AbsoluteFill
       style={{
-        background: "#0f0f1a",
+        background: "linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 60%, #0f3460 100%)",
         opacity: bgOpacity,
         display: "flex",
         flexDirection: "column",

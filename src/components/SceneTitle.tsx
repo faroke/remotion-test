@@ -59,7 +59,7 @@ export const SceneTitle: React.FC = () => {
     <AbsoluteFill
       style={{
         background:
-          "#0f0f1a",
+          "linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 40%, #16213e 70%, #0f3460 100%)",
         opacity: bgOpacity,
       }}
     >
