@@ -1,0 +1,24 @@
+{
+  "name": "remotion-js-intro",
+  "version": "1.0.0",
+  "description": "Animated JavaScript introduction video",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render",
+    "render": "npx remotion render JsIntro out/video.mp4"
+  },
+  "dependencies": {
+    "remotion": "^4.0.0",
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@remotion/tailwind-v4": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "sideEffects": ["*.css"]
+}
